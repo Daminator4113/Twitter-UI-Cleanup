@@ -32,7 +32,7 @@
 [Install-1-image]: https://img.shields.io/badge/-Install-blue
 [Install-1-url]: https://greasyfork.org/scripts/522966-twitter-ui-cleanup
 [Install-2-image]: https://img.shields.io/badge/-Install-blue
-[Install-2-url]: https://raw.githubusercontent.com/Daminator4113/Twitter-UI-Cleanup/main/twitter-ui-cleanup.js
+[Install-2-url]: https://raw.githubusercontent.com/Daminator4113/Twitter-UI-Cleanup/main/twitter-ui-cleanup.user.js
 
 ## Features
 
