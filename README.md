@@ -38,7 +38,9 @@
 
 </div>
 
-- Removes `Grok`, `Premium`, `Verified organizations` and the `"Generate Image with Grok"` buttons. And also remove the `"Try Premium for free"` section.
+- Removes `Grok`, `Premium`, `Verified organizations` and the `"Generate Image with Grok"` buttons.
+- Remove the `"Try Premium for free"` section.
+- Remove the `Grok profile resume` and `Grok Drawer`.
 
 <div align="center">
 
