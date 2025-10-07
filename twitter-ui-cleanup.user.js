@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitter UI Cleanup
 // @namespace    https://github.com/Daminator4113/Twitter-UI-Cleanup
-// @version      1.2
+// @version      1.3
 // @author       Daminator4113
 // @description  Remove unwanted buttons and sections on Twitter
 // @license      MIT
@@ -35,6 +35,8 @@
             'a[data-testid="premium-signup-tab"]', // Twitter Blue
             'a[data-testid="vo-signup-tab"]', // Verified organizations
             'button[data-testid="grokImgGen"]', // "Generate Image with Grok" button.
+            'div.css-175oi2r.r-1s2bzr4.r-dnmrzs.r-bnwqim', // Grok questions suggestions
+            'button[aria-label="Actions Grok"]', // Grok explain tweet button
         ];
 
         selectors.forEach(selector => {
