@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitter UI Cleanup
 // @namespace    https://github.com/Daminator4113/Twitter-UI-Cleanup
-// @version      1.4
+// @version      1.5
 // @author       Daminator4113
 // @description  Remove unwanted buttons and sections on Twitter
 // @license      MIT
