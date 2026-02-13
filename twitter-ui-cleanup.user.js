@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitter UI Cleanup
 // @namespace    https://github.com/Daminator4113/Twitter-UI-Cleanup
-// @version      1.5
+// @version      1.6
 // @author       Daminator4113
 // @description  Remove unwanted buttons and sections on Twitter
 // @license      MIT
@@ -44,7 +44,7 @@
             document.querySelectorAll(selector).forEach(el => el.remove());
         });
 
-        removeParent('a[href*="/i/premium_sign_up"]', 3, 'DIV'); // "Try Premium for free" section
+        removeParent('a[href="/i/premium_sign_up"]', 3, 'DIV'); // "Try Premium for free" section
         removeParent('div[data-testid="GrokDrawerHeader"]', 1, 'DIV'); // Grok Drawer → I don't know why, but removing the "GrokDrawer" div deactivate the autoplay for videos?
 
         const grokSVG = 'path[d="M2.205 7.423L11.745 21h4.241L6.446 7.423H2.204zm4.237 7.541L2.2 21h4.243l2.12-3.017-2.121-3.02zM16.957 0L9.624 10.435l2.122 3.02L21.2 0h-4.243zm.767 6.456V21H21.2V1.51l-3.476 4.946z"]';
